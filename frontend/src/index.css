@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .active {
+    @apply text-primary;
+  }
+
+  .input {
+    @apply text-black border border-gray-400 w-full rounded-full py-[3px] outline-none px-4 focus:ring-1 focus:ring-inset focus:ring-primary;
+  }
+
+  .input-label {
+    @apply block pb-1 hover:cursor-pointer;
+  }
+}
